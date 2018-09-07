@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="sensegame",
-    version="0.0.2",
+    version="0.0.3",
     author="Jorn Bersvendsen",
     description="Helper library for developing games with the SenseHAT on the Raspberry PI",
     license="MIT",
@@ -13,7 +13,6 @@ setuptools.setup(
     ],
     url="https://github.com/jornb/sensegame",
     install_requires=[
-        "sense-hat",
         "evdev"
     ],
     python_requires=">=3",
